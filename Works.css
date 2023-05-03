@@ -1,0 +1,936 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+
+
+body .naybar{
+    background: #941B31;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    width:100%;
+}
+
+body .naybar .logo{
+    padding: 5px 0px;
+}
+
+body .naybar .logo a:hover{
+    outline: none;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+body .naybar .logo .dona{
+    border: none;
+    background: none;
+    background-image: url(dona_1.svg);
+    background-repeat: no-repeat;
+    padding: 30px 30px;
+}
+
+body .naybar .logo .dona:hover{
+    border: none;
+    background-image: url(dona_2.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 30px 30px;
+}
+
+body .naybar .items{
+    align-items: center;
+    display: flex;
+}
+
+a {
+    border-bottom: 1px solid #E22447 transparent;
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    text-decoration: none;
+    padding-inline: 92px;
+  }
+
+a:hover {
+    color: #E22447;
+    font-size: 16px;
+    border-bottom: 1px solid;
+  }
+
+body .sect1 .bg{
+    height: 1114px;
+    vertical-align: top;
+    width: 1901px;
+}
+
+body .sect2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 250px 144px;
+    padding-bottom: 250px;
+}
+
+body .sect2 .icon{
+    align-content: start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 320px;
+    justify-content: center;
+}
+
+body .sect2 .icon .ilu{
+    text-align: center;
+}
+
+body .sect2 .icon .ilu> img{
+    height: 225px;
+    width: 225px;
+}
+
+body .sect2 .icon .ilu> h1{
+    color: #941B31;
+    font-size: 36px;
+    padding-bottom: 25px;
+
+}
+
+body .sect2 .icon .ilu> h2{
+    color: #E22447;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+body .sect2 .icon .ilu> p{
+    font-size: 20px;
+}
+
+
+body .sect2 .icon .ani{
+    text-align: center;
+}
+
+body .sect2 .icon .ani> img{
+    height: 225px;
+    width: 225px;
+}
+
+body .sect2 .icon .ani> h1{
+    color: #941B31;
+    font-size: 36px;
+    padding-bottom: 25px;
+
+}
+
+body .sect2 .icon .ani> h2{
+    color: #E22447;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+body .sect2 .icon .ani> p{
+    font-size: 20px;
+}
+
+body .sect2 .icon .des{
+    text-align: center;
+}
+
+body .sect2 .icon .des> img{
+    height: 225px;
+    width: 225px;
+}
+
+body .sect2 .icon .des> h1{
+    color: #941B31;
+    font-size: 36px;
+    padding-bottom: 25px;
+
+}
+
+body .sect2 .icon .des> h2{
+    color: #E22447;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+body .sect2 .icon .des> p{
+    font-size: 20px;
+}
+
+body .sect3_1{
+    background: rgb(148,27,49);
+    background: linear-gradient(0deg, rgba(148,27,49,1) 0%, rgba(218,50,77,1) 100%);
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+
+body .sect3_1 .icon1{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left:  900px;
+    margin-right: 950px;
+}
+
+body .sect3_1 .icon1> img{
+    height: 87px;
+    width: 87px;
+}
+
+body .sect3_1 .tch{
+    margin: 200px 0px;
+}
+
+body .sect3_1 .tch .typec{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+body .sect3_1 .tch> p{
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0px 380px;
+    text-align: center;
+}
+
+body .sect3_1 .fapo{
+    margin: 200px 0px;
+}
+
+body .sect3_1 .fapo .tp{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+body .sect3_1 .fapo .tp .tales{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+body .sect3_1 .fapo> p{
+    color: #ffffff;
+    font-size: 24px;
+    margin: 35px 350px;
+    text-align: center;
+}
+
+body .sect3_1 .dw> p{
+    color: #ffffff;
+    font-size: 24px;
+    margin: 35px 360px;
+    text-align: center;
+}
+
+body .sect3_1 .dw .draws{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+body .sect3_2{
+    background: #941B31;
+}
+
+body .sect3_2 .ic{
+    margin-bottom: 200px;
+    margin-left: 900px;
+    margin-right: 950px;
+}
+
+body .sect3_2 .ic> img{
+    height: 87px;
+    width: 87px;
+}
+
+body .sect3_2 .video{
+    justify-content: center;
+}
+
+body .sect3_3{
+    background: #941B31;
+    padding: 100px 0px;
+}
+
+body .sect3_3 .ico{
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-left: 900px;
+    margin-right: 950px;
+}
+
+body .sect3_3 .ico> img{
+    height: 87px;
+    width: 87px;
+}
+
+body .sect3_3 .ldf{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+    margin: 100px 0px;
+    justify-content: center;
+}
+
+body .sect3_3 .ldf> p{
+    color: #ffffff;
+    font-size: 24px;
+    margin: 35px 300px;
+    text-align: center;
+}
+
+body .sect3_3 .ldf .ldfs{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+body .sect3_3 .mc{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+    margin: 250px 0px;
+    justify-content: center;
+}
+
+body .sect3_3 .mc> p{
+    color: #ffffff;
+    font-size: 24px;
+    margin: 35px 330px;
+    text-align: center;
+}
+
+body .sect3_3 .mc .mcs{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+body .more{
+    background: #941B31;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 550px;
+    padding-bottom: 200px;
+}
+
+body .more > span{
+    border: 2px solid #E22447;
+    justify-content: center;
+    width: 100%;
+}
+
+body .more > p{
+    color: #ffffff;
+    font-size: 35px;
+    gap: 280px;
+    text-align: center;
+}
+
+body .ftr{
+    display: flex;
+    background: #941B31;
+    padding: 80px 125px;
+    justify-content: center;
+}
+
+body .ftr .content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+body .ftr .content .fin> img{
+    width: 400px
+}
+
+body .ftr .content .ctc{
+    display: flex;
+    gap: 40px
+}
+
+body .ftr .content .ctc .logotypes{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 75px;
+}
+
+body .ftr .content .ctc .logotypes >img{
+    display: flex;
+    height: 61px;
+    justify-content: center;
+    vertical-align: top;
+    width: 61px;
+}
+
+body .ftr .content .ctc .logotypes >p{
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+}
+
+body .ftr .content .ctc .logotypes .p1{
+    padding-top: 24px;
+}
+
+body .ftr .content .ctc .logotypes .p2{
+    padding-top: 24px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1366px){
+
+    body .sect1 .bg{
+        height: 820px;
+        width: 1363px;
+    }
+    
+    body .sect2{
+        padding: 250px 100px;
+    }
+    
+    body .sect2 .icon{
+        gap: 250px;
+    }
+    
+    body .sect2 .icon .ilu{
+        text-align: center;
+    }
+    
+    body .sect2 .icon .ilu> img{
+        height: 130px;
+        width: 130px;
+    }
+
+    body .sect2 .icon .ani> img{
+        height: 130px;
+        width: 130px;
+    }
+
+    body .sect2 .icon .des> img{
+        height: 130px;
+        width: 130px;
+    }
+
+    body .sect3_1{
+        padding-bottom: 150px;
+        padding-top: 100px;
+    }
+
+    body .sect3_1 .icon1{
+        margin-top: 100px;
+        margin-bottom: 150px;
+        margin-left:  650px;
+        margin-right: 600px;
+    }
+
+
+    body .sect3_1 .tch{
+        margin: 150px 0px;
+    }
+
+    body .sect3_1 .tch> p{
+        margin: 70px 100px;
+    }
+
+    body .sect3_1 .fapo{
+        margin: 150px 0px;
+    }
+
+    body .sect3_1 .fapo> p{
+        margin: 70px 95px;
+    }
+
+    body .sect3_1 .dw> p{
+        margin: 70px 123px;
+    }
+
+    body .sect3_2 .ic{
+        margin-bottom: 200px;
+        margin-left: 650px;
+        margin-right: 600px;
+    }
+
+    body .sect3_3 .ico{
+        margin-top: 150px;
+        margin-bottom: 200px;
+        margin-left: 650px;
+        margin-right: 600px;
+    }
+    
+    body .sect3_3 .ldf> p{
+        margin: 70px 65px;
+    }
+
+    body .sect3_3 .mc> p{
+        margin: 70px 79px;
+    }
+
+    body .more{
+        padding: 0px 340px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 830px){
+    
+    body .naybar{
+        padding: 10px 25px;
+    }
+    
+    body .naybar .items{
+        display: none;
+    }
+
+    body .sect1 .bg{
+        height: 525px;
+        width: 827px;
+    }
+    
+    body .sect2{
+        padding: 150px 75px;
+    }
+
+    body .sect2 .icon{
+        gap: 135px;
+    }    
+
+    body .sect2 .icon .ilu> img{
+        height: 115px;
+        width: 115px;
+    }
+
+    body .sect2 .icon .ilu> h1{
+        font-size: 24px;
+    }
+
+    body .sect2 .icon .ilu> h2{
+        font-size: 16px;
+    }
+
+    body .sect2 .icon .ilu> p{
+        font-size: 14px;
+    }
+
+    body .sect2 .icon .ani> img{
+        height: 115px;
+        width: 115px;
+    }
+
+    body .sect2 .icon .ani> h1{
+        font-size: 24px;
+    }
+
+    body .sect2 .icon .ani> h2{
+        font-size: 16px;
+    }
+
+    body .sect2 .icon .ani> p{
+        font-size: 14px;
+    }
+
+    body .sect2 .icon .des> img{
+        height: 115px;
+        width: 115px;
+    }
+
+    body .sect2 .icon .des> h1{
+        font-size: 24px;
+    }   
+
+    body .sect2 .icon .des> h2{
+        font-size: 16px;
+    }
+
+    body .sect2 .icon .des> p{
+        font-size: 14px;
+    }
+
+    body .sect3_1 .icon1{
+        margin-left:  400px;
+        margin-right: 400px;
+    }
+
+    body .sect3_1 .tch{
+        margin: 0px 0px;
+        margin-top: 200px;
+    }
+
+    body .sect3_1 .tch .typec{
+        margin-bottom: 15px;
+    }
+
+    body .sect3_1 .tch .typec .lety{
+        display: flex;
+        justify-items: center;
+        margin: 385px 10px;
+        position: absolute;
+    }
+
+    body .sect3_1 .tch .typec .lety .cj{
+        margin-left: 30px;
+    }
+
+    body .sect3_1 .tch .typec .lety .cj> img{
+        margin-right: 35px;
+        width: 40%;
+    }
+
+    body .sect3_1 .tch .typec .lety .kl{
+        margin-left: 30px;
+    }
+
+    body .sect3_1 .tch .typec .lety .kl> img{
+        margin-right: 35px;
+        width: 40%;
+    }
+
+    body .sect3_1 .tch .typec >img{
+        width: 830px;
+    }
+    
+    body .sect3_1 .tch> p{
+        display: none;
+    }
+    
+    body .sect3_1 .fapo{
+        margin: 5px 0px;
+    }
+
+    body .sect3_1 .fapo .tp{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+
+    body .sect3_1 .fapo .tp .tales{
+        gap: 19px;
+    }
+
+    body .sect3_1 .fapo .tp .tales> img{
+        width: 830px;
+    }
+
+    body .sect3_1 .fapo .tp .prts{
+        margin-top: 15px;
+        margin-left: 22px;
+        margin-right: 15;
+    }
+
+    body .sect3_1 .fapo .tp .prts> img{
+        margin-right: 15px;
+        height: 353.5px;
+        width: 247.8px;
+    }
+
+    body .sect3_1 .fapo> p{
+        display: none;
+    }
+    
+    body .sect3_1 .dw> p{
+        display: none;
+    }
+
+    body .sect3_1 .dw .draws{
+        display: flex;
+        justify-content: center;
+        margin: 15px 20px;
+        gap: 5px;
+    }
+
+    body .sect3_1 .dw .draws> img{
+        height: 270px;
+        width: 208px;
+    }
+
+    body .sect3_2 .ic{
+        margin-left:  380px;
+        margin-right: 400px;
+    }
+
+    body .sect3_3 .ico{
+        margin-left:  380px;
+        margin-right: 400px;
+    }
+
+    body .sect3_3 .ldf{
+        margin: 0px 0px;
+        margin-bottom: 15px;
+    }
+
+    body .sect3_3 .ldf> img{
+        width: 830px;
+    }
+
+    body .sect3_3 .ldf> p{
+        display: none;
+    }
+
+    body .sect3_3 .ldf .ldfs{
+        margin-top: 400px;
+        position: absolute;
+    }
+
+    body .sect3_3 .ldf .ldfs> img{
+        height: 184px;
+        width: 252px;
+    }
+    
+    body .sect3_3 .mc{
+        margin: 15px 0px;
+    }
+
+    body .sect3_3 .mc> img{
+        width: 830px;
+    }
+
+    body .sect3_3 .mc> p{
+        display: none;
+    }
+
+    body .sect3_3 .mc .mcs{
+        margin-top: 405px;
+        position: absolute;
+    }
+
+    body .sect3_3 .mc .mcs> img{
+        height: 184px;
+        width: 252px;
+    }
+
+    body .more{
+        padding: 150px 125px;
+    }
+
+    body .ftr .content .ctc{
+        display: flex;
+        gap: 60px
+    }
+    
+    body .ftr .content .ctc .logotypes{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 50px;
+    }
+
+    body .ftr .content .ctc .logotypes .p1{
+        padding-top: 4px;
+    }
+    
+    body .ftr .content .ctc .logotypes .p2{
+        padding-top: 4px;
+    }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 360px){
+    
+    body .naybar{
+        padding: 5px 5px;
+    }
+    
+    body .naybar .items{
+        display: none;
+    }
+
+    body .sect1 .bg{
+        height: 144px;
+        width: 360px;
+    }
+    
+    body .sect2 .icon{
+        margin-top: 50px;
+    }    
+
+    body .sect3_1 .icon1{
+        margin-left:  140px;
+        margin-right: 170px;
+    }
+
+    body .sect3_1 .tch{
+        margin-top: 150px;
+    }
+
+    body .sect3_1 .tch .typec{
+        margin-bottom: 15px;
+    }
+
+    body .sect3_1 .tch .typec .lety{
+        margin: 165px 5px;
+    }
+
+    body .sect3_1 .tch .typec .lety .cj{
+        margin-left: 15px;
+    }
+
+    body .sect3_1 .tch .typec .lety .cj> img{
+        margin-right: 5px;
+        width: 45%;
+    }
+
+    body .sect3_1 .tch .typec .lety .kl{
+        margin-left: 15px;
+    }
+
+    body .sect3_1 .tch .typec .lety .kl> img{
+        margin-right: 5px;
+        width: 45%;
+    }
+
+    body .sect3_1 .tch .typec >img{
+        width: 360px;
+    }
+
+    body .sect3_1 .fapo .tp .tales> img{
+        width: 360px;
+    }
+
+    body .sect3_1 .fapo .tp .prts{
+        margin-top: 15px;
+        margin-left: 22px;
+        margin-right: 15;
+    }
+
+    body .sect3_1 .fapo .tp .prts> img{
+        margin-right: 15px;
+        height: 429px;
+        width: 306px;
+    }
+
+    body .sect3_1 .dw .draws{
+        flex-direction: column;
+        margin: 15px 32px;
+        gap: 10px;
+    }
+
+    body .sect3_1 .dw .draws> img{
+        height: 409px;
+        width: 291px;
+    }
+
+    body .sect3_2 .ic{
+        margin-left:  140px;
+        margin-right: 100px;
+        margin-bottom: 150px;
+    }
+    
+    body .sect3_3 .ico{
+        margin-left:  140px;
+        margin-right: 100px;
+    }
+    
+    body .sect3_3 .ldf> img{
+        width: 360px;
+    }
+
+    body .sect3_3 .ldf .ldfs{
+        margin-top: 128px;
+    }
+
+    body .sect3_3 .ldf .ldfs> img{
+        height: 184px;
+        width: 96px;
+    }
+
+    body .sect3_3 .mc> img{
+        width: 360px;
+    }
+
+    body .sect3_3 .mc .mcs{
+        margin-top: 128px;
+    }
+
+    body .sect3_3 .mc .mcs> img{
+        height: 184px;
+        width: 96px;
+    }
+
+    body .more{
+        padding: 90px 7px;
+    }
+
+    body .ftr .content .ctc{
+        display: flex;
+        gap: 60px
+    }
+
+    body .more> p{
+        font-size: 20px;
+    }
+    
+    body .ftr .content .fin> img{
+        width: 200px
+    }
+
+    body .ftr .content .ctc{
+        display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+        gap: 30px;
+    }
+    
+    body .ftr .content .ctc .logotypes{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    body .ftr .content .ctc .logotypes >img{
+        height: 41px;
+        width: 41px;
+    }
+
+    body .ftr .content .ctc .logotypes .p1{
+        font-size: 12px;
+        padding-top: 4px;
+    }
+    
+    body .ftr .content .ctc .logotypes .p2{
+        font-size: 12px;
+        padding-top: 4px;
+    }
+    
+
+    
+}
